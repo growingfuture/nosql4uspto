@@ -10,8 +10,7 @@ uspto patent data-pipeline for nosql system
 >
 * 매년 150,000건 이상의 데이터를 issue하는 USPTO 빅데이터 활용
 * 병렬구조로 수집하여 수집 속도를 향상시킴
-* 
-*
+* USPTO에서 자주 활용이되는 QUERY 위주의 test 및 비교
 >
 >
 ## 목차
@@ -48,8 +47,8 @@ uspto patent data-pipeline for nosql system
 >
 ### 2.1. 데이터 변환 : XML -> JSON
 >
-* Splunk와 Neo4j는 xml과 json 두 형식 모두 사용 가능하지만 MongoDB에서 JSON과 같은 형식(BSON)만 사용 가능
-* 따라서, XML을 JSON형식으로 변환하여 세 시스템 모두 사용 가능하게 만들었음
+* MongoDB에서 JSON과 같은 형식(BSON)이 사용 가능하기 때문에 Json 파일로 변환해야 함
+>
 >
 #### 변환과정
 >
@@ -62,7 +61,8 @@ uspto patent data-pipeline for nosql system
 >
 > * a sample record () for each system (image)
 >
-## 3. 데이터수집 결과 요약
 >
+### test query (
+* title, assignee(=patent number), dates(priority, publication), legal status(patent application, granted patent), number of claims
 > 
-
+>
