@@ -43,7 +43,7 @@ uspto patent data-pipeline for nosql system
 >
 ### 2.2. 데이터 저장 
 >
-> * a sample record ()
+> * a sample record () for each system (image)
 >
 ## 3. 데이터수집 결과 요약
 >
