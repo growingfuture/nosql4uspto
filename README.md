@@ -55,13 +55,12 @@ uspto patent data-pipeline for nosql system
 >
 * Splunk와 Neo4j는 xml과 json 두 형식 모두 사용 가능하지만 MongoDB에서 JSON과 같은 형식(BSON)만 사용 가능
 * 따라서, XML을 JSON형식으로 변환하여 세 시스템 모두 사용 가능하게 만들었음
->
-```
-- 변환방법
- 1) 몰라요아직~
- 2)
- 3)
-```
+* 변환방법
+ ```
+  1) 몰라요아직~
+  2)
+  3)
+ ```
 >
 >
 ### 2.2. 데이터 저장 
