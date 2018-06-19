@@ -1,4 +1,4 @@
-# nosql4uspto
+# NOSQL 4 USPTO
 uspto patent data-pipeline for nosql system
 --------------------------------------------
 >
