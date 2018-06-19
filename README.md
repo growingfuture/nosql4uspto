@@ -27,7 +27,7 @@ uspto patent data-pipeline for nosql system
 >
 ```
 - USPTO 데이터 2018년 1-3월, 3개월간 생성된 특허 데이터
-- 총 000건의 데이터 (데이터 크기)
+- 총 522,429건의 데이터 (약 55MB)
 ```
 >
 >
@@ -56,7 +56,7 @@ uspto patent data-pipeline for nosql system
 * Splunk와 Neo4j는 xml과 json 두 형식 모두 사용 가능하지만 MongoDB에서 JSON과 같은 형식(BSON)만 사용 가능
 * 따라서, XML을 JSON형식으로 변환하여 세 시스템 모두 사용 가능하게 만들었음
 >
-#### 변환방법
+#### 변환과정
  ```
   1) 몰라요아직~
   2)
