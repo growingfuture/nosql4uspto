@@ -36,13 +36,12 @@ uspto patent data-pipeline for nosql system
   * 따라서, USPTO의 url에서 년도만(2002이후) 바꾸어 xml파일을 수집하는 형식으로 파이썬 문법 작성
   * 본 프로젝트에서는 실험적으로 2018년 1-3월까지의 3개월 데이터만 가져옴
 >
-![image](https://user-images.githubusercontent.com/37169177/41616343-bcfe824e-7438-11e8-9a6a-ae6b8a9d5655.png)
->
 >
 2) zip을 풀어 xml 형태로 최종 수집
   * USPTO에 올려져 있는 파일들은 zip 형태으로 되어 있음
   * 따라서, zip을 풀어서 xml 형태로 최종 수집
 >
+![image](https://user-images.githubusercontent.com/37169177/41616343-bcfe824e-7438-11e8-9a6a-ae6b8a9d5655.png)
 >
 >
 ## 2. 데이터 변환 및 저장
