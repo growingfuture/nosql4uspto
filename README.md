@@ -37,7 +37,7 @@ uspto patent data-pipeline for nosql system
 >
 >
 2) zip을 풀어 xml 형태로 최종 수집
-  * USPTO에 올려져 있는 파일들은 zip 형태으로 되어 있음
+  * USPTO에 올려져 있는 파일들은 zip 형태로 되어 있음
   * 따라서, zip을 풀어서 xml 형태로 최종 수집
 >
 ![image](https://user-images.githubusercontent.com/37169177/41616343-bcfe824e-7438-11e8-9a6a-ae6b8a9d5655.png)
@@ -62,7 +62,7 @@ uspto patent data-pipeline for nosql system
 > * a sample record () for each system (image)
 >
 >
-### test query (
+### test query 
 * title, assignee(=patent number), dates(priority, publication), legal status(patent application, granted patent), number of claims
 > 
 >
