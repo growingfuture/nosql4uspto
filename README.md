@@ -39,9 +39,9 @@ uspto patent data-pipeline for nosql system
 * 따라서, USPTO의 url에서 년도만(2002이후) 바꾸어 xml파일을 수집하는 형식으로 파이썬 문법 작성
 * 본 프로젝트에서는 실험적으로 2018년 1-3월까지의 3개월 데이터만 가져옴
  
-2) zip을 xml로 변환
-* USPTO에 올려져 있는 파일들은 zip형식으로 되어 있음
-* 따라서, zip을 풀어 xml로 변환하는 작업이 필요함
+2) zip을 풀어 xml 형태로 최종 수집
+* USPTO에 올려져 있는 파일들은 zip 형태으로 되어 있음
+* 따라서, zip을 풀어 xml 형태로 최종 수집
 
 ```
 >
@@ -53,6 +53,8 @@ uspto patent data-pipeline for nosql system
 ```
 * Splunk와 Neo4j는 xml과 json 두 형식 모두 사용 가능하지만 MongoDB에서 JSON과 같은 형식(BSON)만 사용 가능
 * 따라서, XML을 JSON형식으로 변환하여 세 시스템 모두 사용 가능하게 만들었음
+* 변환방법
+ * 몰라요아직~
 ```
 >
 >
