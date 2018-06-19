@@ -46,7 +46,6 @@ uspto patent data-pipeline for nosql system
 2) zip을 풀어 xml 형태로 최종 수집
 * USPTO에 올려져 있는 파일들은 zip 형태으로 되어 있음
 * 따라서, zip을 풀어 xml 형태로 최종 수집
-
 ```
 >
 >
