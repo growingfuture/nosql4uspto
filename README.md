@@ -24,8 +24,8 @@ uspto patent data-pipeline for nosql system
 >
 ### 1.1. 데이터 소개
 >
-- USPTO 데이터 2018년 1-3월, 3개월간 생성된 특허 데이터
-- 총 522,429건의 데이터 (약 55MB)
+- USPTO 데이터 2018년 1월 ~ 6월 18일까지의 데이터
+- 총 162,238건의 데이터 (약 17GB)
 >
 >
 ### 1.2. 데이터 수집
@@ -33,7 +33,7 @@ uspto patent data-pipeline for nosql system
 1) 파일 수집 URL 생성
   * USPTO에 2002년 이후에 생성된 데이터들은 xml 파일형식으로 가져올 수 있음
   * 따라서, USPTO의 url에서 년도만(2002이후) 바꾸어 xml파일을 수집하는 형식으로 파이썬 문법 작성
-  * 본 프로젝트에서는 실험적으로 2018년 1-3월까지의 3개월 데이터만 가져옴
+  * 본 프로젝트에서는 실험적으로 2018년 1-6월까지의 약 6개월 데이터만 가져옴
 >
 >
 2) zip을 풀어 xml 형태로 최종 수집
@@ -47,14 +47,7 @@ uspto patent data-pipeline for nosql system
 >
 ### 2.1. 데이터 변환 : XML -> JSON
 >
-* MongoDB에서 JSON과 같은 형식(BSON)이 사용 가능하기 때문에 Json 파일로 변환해야 함
->
->
-#### 변환과정
->
-  1) 몰라요아직~
-  2)
-  3)
+* MongoDB에서 JSON과 같은 형식(BSON)이 사용 가능하기 때문에 XML을 JSON파일 형식으로 변환해야 함
 >
 >
 ### 2.2. 데이터 저장 
