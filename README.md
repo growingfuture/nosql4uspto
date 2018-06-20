@@ -13,12 +13,6 @@ uspto patent data-pipeline for nosql system
 * USPTO에서 자주 활용이되는 QUERY 위주의 test 및 비교
 >
 >
-## 목차
->
-1. 데이터 소개 및 수집 
-2. 데이터 변환 및 저장 
-3. 데이터 수집 결과 요약
->
 >
 ## 1. 데이터 소개 및 수집
 >
@@ -43,14 +37,14 @@ uspto patent data-pipeline for nosql system
 ![image](https://user-images.githubusercontent.com/37169177/41616343-bcfe824e-7438-11e8-9a6a-ae6b8a9d5655.png)
 >
 >
-## 2. 데이터 변환 및 저장
+## 2. 데이터 변환 및 결과
 >
 ### 2.1. 데이터 변환 : XML -> JSON
 >
 * MongoDB에서 JSON과 같은 형식(BSON)이 사용 가능하기 때문에 XML을 JSON파일 형식으로 변환해야 함
 >
 >
-### 2.2. 데이터 저장 
+### 2.2. 데이터 결과
 >
 > * a sample record () for each system (image)
 >
